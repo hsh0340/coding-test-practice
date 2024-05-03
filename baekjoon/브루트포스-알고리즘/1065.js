@@ -5,6 +5,7 @@ const criteria = +fs.readFileSync('../input/1065.txt').toString();
 function seperateDigits(number) {
   return number.toString().split('').map(Number);
 }
+
 function getNumberOfHanNumber(criteria) {
   let numberOfHanNumber = 0;
   if (criteria <= 99) {
